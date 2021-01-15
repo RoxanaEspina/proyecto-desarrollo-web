@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Xantecs</title>
+    <h1 id="titulo">Academia Xantecs</h1>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header id="cabecera">
+        <div id="Banner">     
+
+            <img src= "img/banner.jpg"/>
+        
+        </div>
+        <nav class="menu">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                
+                <li><a href="acerca_de.html">Acerca de</a></li>
+                
+                <li><a href="cursos.html">Cursos</a></li>
+                
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="contacto">
+        <div class="mapa">
+            <p><strong>Sucursal</strong></p>
+            <p>Santiago Centro: Santa Isabel 55</p>
+            <p>Teléfono: 2355669</p>
+            <p class="correo">Correo: Xantecs@capacitacion.com</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3329.073419064854!2d-70.63507488495216!3d-33.447393680774795!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c50284bdecab%3A0x4662d19d885901a5!2sSta%20Isabel%2055%2C%20Santiago%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1ses!2scl!4v1610562990043!5m2!1ses!2scl" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>        
+        <div id="lateral4">
+            <p id="completar"><strong>Si necesita realizar una consulta, complete el formulario a continuación:</strong></p>
+            <form autocomplete="on">
+                <p>Ingrese su nombre y apellido</p>
+                <input class="input-texto" type="text" id="nombre" placeholder="Ingrese su nombre y apellido"  required>
+                <p>Ingrese su correo electrónico</p>
+                <input class="input-texto" type="email" id="email" placeholder="Ingrese su correo" required multiple>
+                <p>Ingrese su número de contacto</p>
+                <input class="input-texto" type="tel" id="telefono" list="telefonos" placeholder="900000000" pattern="[2,9]{1}[0-9]{8}" required>
+                <p>Observación</p>
+                <input class="input-texto" type="text" id="observacion" required>
+                <input class="input-texto" type="submit" value="Enviar" onclick="mensaje()">
+            </form>
+        </div>
+    </div>
+</body>
+<script src="index.js"></script>
+
+    <footer id="pie">
+        Roxana Espina &copy; 2020-2021
+    </footer>
+</html>

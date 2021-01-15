@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Xantecs</title>
+    <h1 id="titulo">Academia Xantecs</h1>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header id="cabecera">
+        <div id="Banner">     
+
+            <img src= "img/banner.jpg"/>
+        
+        </div>
+        <nav class="menu">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                
+                <li><a href="acerca_de.html">Acerca de</a></li>
+                
+                <li><a href="cursos.html">Cursos</a></li>
+                
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <p id="texto1">Cursos a iniciar próximamente:</p>
+    <h2>¡Promoción! Si selecciona más de un curso, se le dará un 20% de descuento</h2>
+    <div class="total">Monto Cotizado: <label id="total">0.0</label> CLP</div>
+    <section class="principal">
+
+        <article>
+             <h2>Desarrollo Web</h2>
+             <figure class="curso">
+                 <img src="Img/article1.jpg"/>
+               <figcaption>
+                Desarollo Web                
+               </figcaption>              
+            </figure>
+            <p>50.000 CLP</p> 
+            <label for="">Cotizar Curso</label>
+            <input type="checkbox" name="" id="check-curso1" value="50000" onclick="cotizador()" >
+        </article>
+        <article>
+            <h2>Base de Datos </h2>
+            <figure class="curso">
+                <img src="Img/article2.jpg"/>
+              <figcaption>
+               MySQL
+              </figcaption>
+           </figure>
+           <p>80.000 CLP</p> 
+           <label for="">Cotizar Curso</label>
+           <input type="checkbox" name="" id="check-curso2" value="80000" onclick="cotizador()" >
+        </article>
+        <article>
+            <h2>Diseño de Estilos</h2>
+            <figure class="curso">
+                <img src="Img/article3.png"/>
+              <figcaption>
+               CSS3
+              </figcaption>
+           </figure>
+           <p>40.000 CLP</p> 
+           <label for="">Cotizar Curso</label>
+           <input type="checkbox" name="" id="check-curso3" value="40000" onclick="cotizador()">
+        </article>        
+    </section>       
+    <aside id="lateral">
+        <div class="late">
+        <a href="https://es.duolingo.com/">Inglés</a>
+        <a href="https://es.wikipedia.org/wiki/Ofim%C3%A1tica">Ofimática</a>
+        <a href="https://es.wix.com/sitiowebgratis/hiker-crea?cq_term=desarrollo+web&gclid=CjwKCAiA8ov_BRAoEiwAOZogwQ12U4ZOfgtWaFhae9w61wObblYN18eslGa0q1CwJoz7UjDy-NhCJhoClPUQAvD_BwE&cq_cmp=8703555284&cq_plt=gp&cq_plac=&cq_con=95970022028&cq_src=google_ads&cq_pos=&cq_net=g&cq_med=&utm_medium=cpc&experiment_id=desarrollo+web%5Ee%5E408527666782%5E">Desarrollo</a>
+        <a href="https://es.wikipedia.org/wiki/Dise%C3%B1o#:~:text=El%20dise%C3%B1o%E2%80%8B%20se%20define,una%20soluci%C3%B3n%20en%20cualquier%20campo.">Diseño</a>
+        </div>
+    </aside>
+    <footer id="pie">
+        Roxana Espina &copy; 2020-2021
+    </footer>    
+</body>
+<script src="index.js"></script>
+</html>

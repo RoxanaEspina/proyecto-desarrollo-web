@@ -1,0 +1,296 @@
+
+* {
+    margin: 0px;
+    padding: 0px; 
+}
+#titulo{
+   background-color: cadetblue;
+   text-align: center;
+   text-shadow: 15px;
+   color: cornsilk;
+   margin: 5px;
+}
+#cabecera{
+    width: 100%;
+    margin: 5px 0px auto; 
+    padding: 0px;  
+}
+#Banner img {
+    width: 100%;
+    height: 150px;
+    margin: 0px !important;
+}
+.menu {
+background-color: cadetblue;
+width: 100%;
+text-align: center;
+}
+.menu a{
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    margin: 10px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.menu a:hover{
+  background: #ddd;
+  color: cadetblue;
+}
+nav ul {
+    list-style: none;
+  
+}
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header, footer, nav{
+    display: block;
+}
+
+h1{
+    font: bold 20px verdana, sans-serif
+}
+
+body{
+    text-align: center;
+   
+}
+
+
+#texto1 {
+    padding: 10px;
+    height: 40px;
+    margin: 20px;
+    font: 1em sans-serif;
+    color: orange;
+    font-size: 24px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: left;
+}
+section{
+        float: left;
+        width: 660px;
+        margin: 70px;
+        margin-top: 25px;
+    }
+    
+#pie{
+        clear: both;
+        text-align: center;
+        padding: 20px;
+        border-top: 2px solid #999999;
+    }
+.principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+article { 
+   margin-left: 10px;
+}
+img{ 
+    
+    margin: 20px;
+    width: 350px;
+    height: 200px; 
+}
+.mision {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.principal2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.prin2 {
+    background-color: orange;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 50%;
+    margin-top: 10px;
+}
+.prin2 p {
+    text-align: left;
+    text-align: justify;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 17px;
+    font: sans-serif;
+    padding: 0px 10px 0px 10px;
+}
+.mivi {
+    width: 50%;
+}
+
+.mivi p {
+    text-align: left;
+    text-align: justify;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 17px;
+    font: sans-serif; 
+}
+#lateral{
+  
+    height: 300px;
+    width: 160px;
+    float: right;
+    background-color:orange;
+    color: white; 
+}
+a {
+    margin: 25px;
+    color: white;
+    display: block;
+    flex-direction: column;
+    text-decoration: none;
+}
+.late a:hover{
+    background-color: cadetblue;
+    color: white;
+    padding: 14px 16px;
+}
+#lateral4 {
+    float:right;
+    margin: 10px 0px 20px 0px;
+    width: 400px;
+    background-color:orange;
+    color: white;
+}
+.input-texto {
+    align-items: center;
+    text-align: center;
+    border: #a6a6a6;
+    border-style: solid;
+    width: 50%;
+    height:30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+#lateral4 p {
+    margin-top: 10px;
+}
+#contact {
+    margin: 20px;
+}
+article iframe {
+    margin: 20PX;
+}
+#completar{
+    margin: 20px;
+    color: black;
+}
+.total {
+    margin-top: 10px;
+    font-size: 30px;
+    color: orange;
+    font-weight: bold;
+}
+.video {
+    box-shadow: 5px 5px 10px orange;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    width: 500px;
+    height: 260px;
+}
+.video h2 {
+    margin-bottom: 10px;
+    padding-top: 10px;
+}
+.cursospes {
+    width: 100% !important;
+    margin: 0px !important;
+    margin-top: 30px !important;   
+    font: 1em sans-serif;
+} 
+.info { 
+    display: flex;
+    flex-direction: row;
+}
+.descripcion {
+    margin: 20px;
+    margin-left: 40px;
+    text-align: justify;
+    margin-top: 40px;
+    max-width: 900px;
+    font-size: 17px;
+    
+}
+
+.contacto {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.mapa {
+    margin: 7px 0px 10px 0px;
+}
+
+.correo {
+    margin-bottom: 10px;
+}
+
+
+ @media (max-width : 1428px){
+    #lateral{
+        display: none;
+    }
+
+} 
+
+@media (max-width : 1267px){
+    
+    .principal{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+  
+    section {
+        float: left;
+        width: 100%;
+        margin: 0px;
+        margin-top: 25px;
+    }
+
+    article {
+        margin-left: 0px;
+    }
+    
+
+}
+
+@media (max-width : 900px){
+    .ad-imagen {
+        margin: 0px !important;
+        width: 90%;
+    }
+}
+
+@media (max-width : 1030px){
+    .contacto {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+@media (max-width : 1140px){
+    .info {
+        flex-direction: column;
+        align-items: center;
+    }
+}
